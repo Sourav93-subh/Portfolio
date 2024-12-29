@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    animation: fadeIn 1s ease-out;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header a {
+    color: #56a8e4;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 40px;
+}
+
+section {
+    background: linear-gradient(135deg, #f0f0f0, #d8e2e8);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.certifications p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta button {
+    background-color: #56a8e4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta button:hover {
+    background-color: #4a92b1;
+    transform: scale(1.05);
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    flex: 1;
+}
+
+.skill i {
+    font-size: 3rem;
+    color: #56a8e4;
+    margin-bottom: 10px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.about-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #56a8e4;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: rotate(10deg);
+}
+
+.about-content {
+    flex-grow: 1;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #333;
+    animation: fadeIn 1s ease-out;
+}
+
+.certifications {
+    margin-top: 40px;
+}
+
+.certifications h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.certifications .certificate {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.certifications .certificate:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.certifications .certificate a {
+    color: #56a8e4;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.certifications .certificate a:hover {
+    text-decoration: underline;
+}
+
+.certifications .certificate .certificate-name {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.certifications .certificate .certificate-date {
+    font-size: 1rem;
+    color: #777;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+
