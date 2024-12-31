@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>About - Sourav Subham</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Sourav <span>Subham</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="projects.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="section-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                Hi, I'm <strong>Sourav Subham</strong>, a passionate B.Tech student specializing in Computer Science at VIT Bhopal. I hail from Kota, Rajasthan.
+            </p>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                I have a deep interest in web development, machine learning, and robotics. I'm constantly exploring new technologies and challenges to push the boundaries of innovation. Here’s a quick look at what I am about:
+            </p>
+            <ul data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                <li><strong>Education:</strong> Currently pursuing my B.Tech in Computer Science at VIT Bhopal.</li>
+                <li><strong>Role:</strong> Lead of the Coding Department at the Robotics Club, where I work on various software and robotics projects.</li>
+                <li><strong>Technologies I'm passionate about:</strong> React.js, Node.js, Python, Machine Learning, and Robotics.</li>
+            </ul>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                I am dedicated to building solutions that integrate technology in ways that make a positive impact. Whether it's automating processes, developing intuitive web apps, or solving complex problems through machine learning, I am always eager to dive into new projects.
+            </p>
+            <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">My Interests</h3>
+            <ul data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                <li><strong>Technology Exploration:</strong> Keeping up with the latest trends in AI, ML, and web development.</li>
+                <li><strong>Problem-Solving:</strong> I enjoy solving complex challenges and thinking creatively to find innovative solutions.</li>
+                <li><strong>Robotics:</strong> Building and programming robots to automate tasks and solve real-world problems.</li>
+            </ul>
+            <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">Future Goals</h3>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1700">
+                My goal is to contribute to cutting-edge projects that push the limits of what technology can achieve. I’m particularly interested in working with teams that focus on AI, automation, and building scalable, impactful solutions. I am always learning and growing as a developer and looking forward to the challenges ahead.
+            </p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Projects - Sourav Subham</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Sourav <span>Subham</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="projects.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="projects">
+        <div class="section-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                Here’s a quick look at some of the exciting projects I’ve worked on. These projects showcase my skills in web development, machine learning, and robotics.
+            </p>
+
+            <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <h3>Credit Card Fraud Detection (2023)</h3>
+                <p>
+                    Developed a fraud detection system using Python, focusing on data preprocessing, feature engineering, and model evaluation. The project applies principles of scalable data mining and machine learning to detect fraudulent transactions in real-time.
+                </p>
+                <ul>
+                    <li><strong>Technologies Used:</strong> Python, scikit-learn, Pandas, NumPy</li>
+                    <li><strong>Key Skills:</strong> Data Preprocessing, Feature Engineering, Model Building, Evaluation Techniques</li>
+                </ul>
+            </div>
+
+            <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                <h3>Plant Leaf Disease Detection (2024)</h3>
+                <p>
+                    Developed a web-based application using React.js and Flask to help users upload plant leaf images and receive real-time disease diagnosis. The application integrates machine learning models trained to detect common plant diseases based on visual symptoms.
+                </p>
+                <ul>
+                    <li><strong>Technologies Used:</strong> React.js, Flask, TensorFlow, scikit-learn</li>
+                    <li><strong>Key Skills:</strong> Web Development, Machine Learning, Image Classification, REST APIs</li>
+                </ul>
+            </div>
+
+            <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                <h3>Robotics Simulation Platform (2024)</h3>
+                <p>
+                    Led the development of a robotic simulation platform as part of the Robotics Club at VIT Bhopal. The platform integrates various algorithms to simulate robotic movements and optimize task execution in a virtual environment.
+                </p>
+                <ul>
+                    <li><strong>Technologies Used:</strong> Python, ROS (Robot Operating System), C++</li>
+                    <li><strong>Key Skills:</strong> Robotics, Simulation, Algorithm Design, Distributed Computing</li>
+                </ul>
+            </div>
+
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+                I am always looking for new challenges and opportunities to learn and grow. Feel free to check out my GitHub for more of my projects and code samples!
+            </p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
